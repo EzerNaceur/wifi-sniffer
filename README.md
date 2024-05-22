@@ -59,8 +59,9 @@ This Python program uses the Scapy library to sniff WiFi probe requests on a spe
 
 ```bash
 python wifi-sniffer.py wlan0
-
+```
 This command will start sniffing WiFi probe requests on the wlan0 interface.
-License
+
+##License
 
 This project is licensed under the GNU general purpose License. See the LICENSE file for details.
