@@ -14,7 +14,7 @@ def sniffProves(p):
 if __name__ == "__main__":
 	if len(sys.argv) >= 2:
 		interface = sys.argv[1]
-		print('Sniffing' + interface + 'for any probe requests: \n')
+		print('[+] Sniffing ' + interface + ' for any probe requests: \n')
 		sniff(iface=interface, prn=sniffProves)
 	else: 
 		print("No interface provided. Provide an interface to start sniffing")
